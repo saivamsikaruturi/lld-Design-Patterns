@@ -2,6 +2,7 @@ package com.example.designpatterns.structural.decorator;
 
 public class Driver {
     public static void main(String[] args) {
+
         Car car = new BasicCar();
         car.assemble();
         System.out.println();

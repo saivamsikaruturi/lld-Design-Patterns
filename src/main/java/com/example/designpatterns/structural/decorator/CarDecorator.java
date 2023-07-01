@@ -2,7 +2,7 @@ package com.example.designpatterns.structural.decorator;
 
 public class CarDecorator implements Car{
 
-    protected Car car;
+     protected Car car;
 
     public CarDecorator(Car car) {
         this.car = car;
