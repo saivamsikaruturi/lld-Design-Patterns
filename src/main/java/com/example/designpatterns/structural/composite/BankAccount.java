@@ -12,7 +12,6 @@ public class BankAccount implements Account{
             account.showAccountDetails();
         }
     }
-
     public void addAccount(Account account){
         accountList.add(account);
     }
