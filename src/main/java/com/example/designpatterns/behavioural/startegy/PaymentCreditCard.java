@@ -6,7 +6,7 @@ public class PaymentCreditCard implements PaymentStrategy {
    CreditCard creditCard;
     @Override
     public void collectPaymentDetails() {
-        creditCard=new CreditCard();
+        creditCard=new CreditCard("cardNumber","expirydate","cvv");
 
     }
 
