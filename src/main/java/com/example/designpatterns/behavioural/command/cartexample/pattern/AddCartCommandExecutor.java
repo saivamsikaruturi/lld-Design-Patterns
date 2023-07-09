@@ -33,7 +33,7 @@ public class AddCartCommandExecutor extends CartCommandExecutor {
         List<String> menuItemIds = restaurantIdToMenuItemIds.getOrDefault(restaurantId, new ArrayList<>());
         menuItemIds.add(itemId);
         restaurantIdToMenuItemIds.put(restaurantId, menuItemIds);
-        System.out.println("Item in cart :: "+ restaurantIdToMenuItemIds.put(restaurantId, menuItemIds));
+        System.out.println("Item in cart :: " + restaurantIdToMenuItemIds.put(restaurantId, menuItemIds));
         cartData.getUserToRestaurantIdToMenuItemIds().put(userId, restaurantIdToMenuItemIds);
     }
 
