@@ -8,6 +8,5 @@ public class Main {
         System.out.println("------------------------------");
         PizzaMaker nvPizzaMaker = new NonVegPizzaMaker();
         nvPizzaMaker.makePizza();
-
     }
 }
