@@ -1,4 +1,4 @@
-package com.example.designpatterns.creational.builder;
+package com.example.designpatterns.creational.builder.UserProfileCreation;
 
 public class User {
     private final String firstName; // required
