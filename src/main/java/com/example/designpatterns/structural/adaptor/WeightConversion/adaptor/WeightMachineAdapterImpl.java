@@ -1,6 +1,6 @@
-package com.example.designpatterns.structural.adaptordp.adaptor;
+package com.example.designpatterns.structural.adaptor.WeightConversion.adaptor;
 
-import com.example.designpatterns.structural.adaptordp.adaptee.WeightMachine;
+import com.example.designpatterns.structural.adaptor.WeightConversion.adaptee.WeightMachine;
 
 public class WeightMachineAdapterImpl implements WeightMachineAdapter{
 
