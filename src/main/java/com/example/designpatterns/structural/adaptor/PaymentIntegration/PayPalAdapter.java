@@ -1,6 +1,6 @@
-package com.example.designpatterns.structural.adaptordp.PaymentIntegration;
+package com.example.designpatterns.structural.adaptor.PaymentIntegration;
 
-import com.example.designpatterns.structural.adaptordp.PaymentIntegration.External.PayPalPaymentService;
+import com.example.designpatterns.structural.adaptor.PaymentIntegration.External.PayPalPaymentService;
 
 public class PayPalAdapter implements PaymentProcessor {
     private PayPalPaymentService payPalPaymentService; // Assume this is a third-party PayPal API service

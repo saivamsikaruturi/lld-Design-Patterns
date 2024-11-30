@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.adaptordp.PaymentIntegration.External;
+package com.example.designpatterns.structural.adaptor.PaymentIntegration.External;
 
 public class PayPalPaymentService {
 

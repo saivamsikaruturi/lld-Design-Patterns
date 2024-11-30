@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.adaptordp.PaymentIntegration;
+package com.example.designpatterns.structural.adaptor.PaymentIntegration;
 
 public class PaymentService {
     private PaymentProcessor paymentProcessor;

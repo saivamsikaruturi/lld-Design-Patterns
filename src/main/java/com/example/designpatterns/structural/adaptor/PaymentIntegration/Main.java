@@ -1,7 +1,7 @@
-package com.example.designpatterns.structural.adaptordp.PaymentIntegration;
+package com.example.designpatterns.structural.adaptor.PaymentIntegration;
 
-import com.example.designpatterns.structural.adaptordp.PaymentIntegration.External.PayPalPaymentService;
-import com.example.designpatterns.structural.adaptordp.PaymentIntegration.External.StripePaymentService;
+import com.example.designpatterns.structural.adaptor.PaymentIntegration.External.PayPalPaymentService;
+import com.example.designpatterns.structural.adaptor.PaymentIntegration.External.StripePaymentService;
 
 public class Main {
     public static void main(String[] args) {
