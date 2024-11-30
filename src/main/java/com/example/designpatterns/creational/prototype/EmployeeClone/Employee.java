@@ -1,4 +1,4 @@
-package com.example.designpatterns.creational.prototype;
+package com.example.designpatterns.creational.prototype.EmployeeClone;
 
 public class Employee  implements Prototype {
     private final Integer id;
