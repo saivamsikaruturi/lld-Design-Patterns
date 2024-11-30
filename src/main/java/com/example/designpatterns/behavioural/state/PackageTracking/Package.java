@@ -1,4 +1,4 @@
-package com.example.designpatterns.behavioural.state;
+package com.example.designpatterns.behavioural.state.PackageTracking;
 
 public class Package {
     private PackageState state;

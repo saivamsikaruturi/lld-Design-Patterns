@@ -1,6 +1,6 @@
-package com.example.designpatterns.behavioural.state;
+package com.example.designpatterns.behavioural.state.PackageTracking;
 
-public class OrderedState implements PackageState{
+public class OrderedState implements PackageState {
     @Override
     public void next(Package pkg) {
         pkg.setState((new DeliveredState()));
