@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.flyweight;
+package com.example.designpatterns.structural.flyweight.DesignCarGame;
 
 import com.example.designpatterns.creational.abstractfactory.exception.ObjectCreationException;
 

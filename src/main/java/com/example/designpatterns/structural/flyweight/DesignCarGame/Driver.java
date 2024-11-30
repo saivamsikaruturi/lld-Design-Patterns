@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.flyweight;
+package com.example.designpatterns.structural.flyweight.DesignCarGame;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,8 +21,8 @@ public class Driver {
                 int nextY = random.nextInt(100);
                 car.moveCar(currentX,currentY,nextX,nextY);
             }
-            System.out.println("Instances Created by McLearn Car "+McLearnCar.numOfInstances);
-            System.out.println("Instances Created by Porsche Car "+PorscheCar.numOfInstances);
+            System.out.println("Instances Created by McLearn Car "+ McLearnCar.numOfInstances);
+            System.out.println("Instances Created by Porsche Car "+ PorscheCar.numOfInstances);
         }
 
 }

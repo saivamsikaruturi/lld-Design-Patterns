@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.flyweight;
+package com.example.designpatterns.structural.flyweight.DesignCarGame;
 
 public abstract class Car {
     /*Intrinsic state  stored and shared in the Flyweight object*/

@@ -1,6 +1,6 @@
-package com.example.designpatterns.structural.flyweight;
+package com.example.designpatterns.structural.flyweight.DesignCarGame;
 
-public class McLearnCar extends Car{
+public class McLearnCar extends Car {
     public static int numOfInstances = 0;
     public McLearnCar(String name, int speed, int horsePower) {
         super(name, speed, horsePower);
