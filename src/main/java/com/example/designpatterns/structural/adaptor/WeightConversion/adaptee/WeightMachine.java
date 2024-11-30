@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.adaptordp.adaptee;
+package com.example.designpatterns.structural.adaptor.WeightConversion.adaptee;
 
 public interface WeightMachine {
 
