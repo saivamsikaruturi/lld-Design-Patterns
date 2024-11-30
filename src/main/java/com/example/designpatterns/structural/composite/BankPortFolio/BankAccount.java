@@ -1,9 +1,9 @@
-package com.example.designpatterns.structural.composite;
+package com.example.designpatterns.structural.composite.BankPortFolio;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankAccount implements Account{
+public class BankAccount implements Account {
 
     private List<Account> accountList=new ArrayList<>();
     @Override

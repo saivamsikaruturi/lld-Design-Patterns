@@ -1,6 +1,6 @@
-package com.example.designpatterns.structural.composite;
+package com.example.designpatterns.structural.composite.BankPortFolio;
 
-public class SavingAccount implements Account{
+public class SavingAccount implements Account {
     public SavingAccount(String bankName, double balance) {
         this.bankName = bankName;
         this.balance = balance;

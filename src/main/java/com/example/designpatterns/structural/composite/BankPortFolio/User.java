@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.composite;
+package com.example.designpatterns.structural.composite.BankPortFolio;
 
 public class User {
     public static void main(String[] args) {

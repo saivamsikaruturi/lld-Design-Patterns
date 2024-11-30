@@ -1,6 +1,6 @@
-package com.example.designpatterns.structural.composite;
+package com.example.designpatterns.structural.composite.BankPortFolio;
 
-public class CurrentAccount  implements  Account{
+public class CurrentAccount  implements Account {
     public CurrentAccount(String bankName, int balance) {
         this.bankName = bankName;
         this.balance = balance;
