@@ -1,4 +1,4 @@
-package com.example.designpatterns.creational.prototype;
+package com.example.designpatterns.creational.prototype.Netflix;
 
 public class Movie implements Cloneable{
     private String title;
