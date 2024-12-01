@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.facade.withfacade;
+package com.example.designpatterns.structural.facade.FileCompression.withfacade;
 
 import java.io.File;
 import java.io.FileNotFoundException;

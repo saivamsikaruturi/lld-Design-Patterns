@@ -1,8 +1,8 @@
-package com.example.designpatterns.structural.facade.withoutfacade;
+package com.example.designpatterns.structural.facade.FileCompression.withoutfacade;
 
 
 
-import com.example.designpatterns.structural.facade.*;
+import com.example.designpatterns.structural.facade.FileCompression.*;
 
 import java.io.BufferedReader;
 import java.io.File;

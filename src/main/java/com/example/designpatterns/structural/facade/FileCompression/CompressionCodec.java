@@ -1,4 +1,4 @@
-package com.example.designpatterns.structural.facade;
+package com.example.designpatterns.structural.facade.FileCompression;
 
 
     public interface CompressionCodec {
