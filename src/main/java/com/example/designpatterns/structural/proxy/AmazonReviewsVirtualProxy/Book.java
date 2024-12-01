@@ -5,4 +5,5 @@ interface Book {
    String getAuthor();
    boolean isAvailable();
    void showInfo();
+
 }
