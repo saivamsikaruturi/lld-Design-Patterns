@@ -1,0 +1,13 @@
+The Bridge Pattern is indeed another great choice for this design, especially when you want to decouple the abstraction (notification types) from its implementation (delivery methods), allowing both to vary independently. Here's how the Bridge Pattern would fit and why it might be a better option in this scenario:
+
+Why Bridge Pattern?
+Decoupling of Hierarchies: The Bridge Pattern is ideal when you have two orthogonal dimensions that vary independently. In this case:
+
+Abstraction: Notification types (Text, QR Code, etc.)
+Implementation: Delivery methods (Email, WhatsApp, Telegram, etc.)
+By using the Bridge Pattern, you avoid combinatorial explosion (e.g., a class for every combination of Notification × DeliveryMethod).
+
+Extensibility: You can add new notification types or delivery methods independently without affecting existing code.
+
+Maintainability: The separation of abstraction and implementation makes the design cleaner and easier to understand.
+
