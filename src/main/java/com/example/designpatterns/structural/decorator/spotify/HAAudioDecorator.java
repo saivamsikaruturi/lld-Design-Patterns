@@ -12,4 +12,5 @@ public class HAAudioDecorator implements MusicStream{
         musicStream.play();
         System.out.println("HQ Audio enabled");
     }
+
 }
